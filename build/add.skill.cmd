@@ -1,0 +1,6 @@
+ECHO.
+TYPE "%~1"
+ECHO.
+ECHO Source: %~n1
+ECHO.
+ECHO.
