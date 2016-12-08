@@ -1,3 +1,5 @@
+@REM USAGE:   build.skills.cmd SkillsDirectory
 pushd "%~dp0"
-for /d %%d in (*-*) DO build.skill.cmd "%%d"
+cd ..
+for /d /r %%d in (*-*) DO "%~dp0build.skill.cmd" "%%~d"
 popd
